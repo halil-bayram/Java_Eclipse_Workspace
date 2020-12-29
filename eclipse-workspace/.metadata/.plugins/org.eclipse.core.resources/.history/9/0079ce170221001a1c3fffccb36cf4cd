@@ -1,0 +1,16 @@
+package maxMinDiziSwap;
+
+public class AnaForm {
+
+	public static void main(String[] args) {
+		PazarListesi liste= new PazarListesi(5);
+		liste.listeyeEkle("Ekmek");
+		liste.listeyeEkle("Su");
+		liste.listeyeEkle("Gofret");
+		
+		
+		liste.yaz();
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package maxMinDiziSwap;
+
+public class PazarListesi {
+	String[] liste;
+	int elemanSayisi;
+	int sinir;
+	public PazarListesi(int elemanKapasitesi) {
+		liste= new String[elemanKapasitesi];
+		sinir=elemanKapasitesi;
+		
+	}
+	
+	public void listeyeEkle(String eklenecekOlan) {
+		if (elemanSayisi<sinir) {
+			liste[elemanSayisi] = eklenecekOlan;
+			elemanSayisi++;
+		}
+		else {
+			System.out.println("Boþ yer kalmadý!");
+		}
+	}
+	public void yaz() {
+		for (int i = 0; i < liste.length; i++) {
+			System.out.println(liste[i]);
+		}
+	}
+}

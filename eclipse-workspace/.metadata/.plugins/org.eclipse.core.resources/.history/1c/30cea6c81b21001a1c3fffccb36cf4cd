@@ -1,0 +1,24 @@
+package maxMinDiziSwap;
+
+import java.util.Scanner;
+
+public class AnaForm {
+
+	public static void main(String[] args) {
+		PazarListesi liste= new PazarListesi(10);
+		Scanner tara=new Scanner(System.in);
+		liste.listeyeEkle("Ekmek");
+		liste.listeyeEkle("Su");
+		liste.listeyeEkle("Gofret");
+		System.out.println("Ýlk Hali:");
+		liste.yaz();
+		System.out.println("Silinecek Deðeri Giriniz:");
+		int a=tara.nextInt();
+		 liste.sil(a);
+		
+		System.out.println("Son Hali:");
+		liste.yaz();
+
+	}
+
+}

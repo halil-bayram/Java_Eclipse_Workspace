@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author halil
+ *
+ */
+module abstractclass {
+}

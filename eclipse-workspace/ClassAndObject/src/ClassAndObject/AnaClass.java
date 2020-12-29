@@ -1,0 +1,17 @@
+package ClassAndObject;
+public class AnaClass {
+
+	public static void main(String[] args) {
+		
+		
+		Insan I1=new Insan(19,"halil");
+		Insan I2=new Insan();
+		I2.isim="Piþkin";
+		I2.yas=21;
+		
+		System.out.println("isim:"+I1.isim+" yaþ:"+I1.yas);
+		System.out.println("isim:"+I2.isim+" yaþ:"+I2.yas);
+
+	}
+
+}

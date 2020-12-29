@@ -1,0 +1,20 @@
+package ClassAndObject;
+
+public class Insan {
+
+	int yas;
+	String isim;
+	
+	
+	public Insan() {
+		yas=0;
+		isim="Ýsim girilmedi";
+		
+	}
+	
+	public Insan(int AlinanYas,String AlinanIsim) {
+		 yas=AlinanYas;
+		 isim=AlinanIsim;
+	}
+	
+}

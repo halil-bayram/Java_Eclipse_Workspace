@@ -1,0 +1,17 @@
+package maxMinDiziSwap;
+
+public class PazarListesi {
+	String[] liste;
+	int elemanSayisi;
+	int sinir;
+	public PazarListesi(int elemanKapasitesi) {
+		liste= new String[elemanKapasitesi];
+		sinir=elemanKapasitesi;
+		
+	}
+	
+	public void listeyeEkle(String eklenecekOlan) {
+		liste[elemanSayisi] = eklenecekOlan;
+		elemanSayisi++;
+	}
+}

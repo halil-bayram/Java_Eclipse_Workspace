@@ -1,0 +1,15 @@
+package IsleclerStringler;
+public class deneme {
+
+	public static void main(String args[]) {
+		
+		//String degiþken aþagýda olduðu gibi tanýmlanýr.
+		String isim;
+		//istersek string deðiþkeni tanýmlarken deðer atarýz istersek tanýmladýktan sonra deðer atarýz.
+		isim="halil";
+		//String deðiþkenler yazdýrýlýrken + iþareti ile birleþtirilerek yazdýrýla bilirler.
+		System.out.println("Adý."+isim);
+	}
+	
+	
+}

@@ -1,0 +1,13 @@
+package ClassAndObject;
+public class AnaClass {
+
+	public static void main(String[] args) {
+		
+		
+		Insan I1=new Insan(19,"halil");
+		
+		System.out.println("isim:"+I1.isim+"yaþ"+I1.yas);
+
+	}
+
+}
